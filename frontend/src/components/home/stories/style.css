@@ -1,0 +1,125 @@
+.stories {
+    /* position: relative;
+    /* display: grid; */
+    /* grid-template-columns: repeat(6, 105px);
+    gap: 10px;
+    width:541px;
+    margin-left:30px;
+    margin-top:150px;
+    padding: 6px 0; */ 
+    position: relative;
+    margin-top: 58px;
+    left: 6px;
+    /* max-height: 100vh; */
+    width: 300px;
+    overflow-y: auto;
+    color: var(--color-primary);
+    padding: 15px 0;
+    padding-bottom: 5rem;
+    user-select: none;
+  }
+  .create_story_card {
+    position: relative;
+    height: 249px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    cursor: pointer;
+    /* box-shadow: 0 1px 2px var(--sahdow-1); */
+    padding: 10px;
+}
+  .create_story_img {
+    position: absolute;
+    height: 75%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(80%);
+  }
+  .plus_story {
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--blue-color);
+    cursor: pointer;
+    border: 4px solid #fff;
+  }
+  .story_create_text {
+    color: #000;
+    position: absolute;
+    left: 40%;
+    top: 87%;
+    font-size: 12px;
+  }
+  .story {
+     
+      position: relative;
+      height: 249px;
+      width: 100%;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #fff;
+      cursor: pointer;
+      padding: 10px;
+      /* box-shadow: 0 1px 2px var(--sahdow-1); */
+  }
+  .story_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.2s;
+    margin-top: 10px;
+    width: 270px;
+  }
+  .story:hover .story_img {
+    transform: scale(1.1);
+  }
+  .story_profile_pic {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    /* border: 2px solid var(--blue-color); */
+  }
+  .story_profile_pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .story_profile_name {
+    position: absolute;
+    left: 20%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    word-break: break-word;
+    width: 100px;
+    color: #fff;
+    text-shadow:  -1px 1px rgb(27, 9, 9);
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  /* .white_circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--bg-primary);
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -5px;
+    box-shadow: 1px 2px var(--shadow-1);
+    cursor: pointer; */
+  /* } */
+  
